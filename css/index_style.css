@@ -1,0 +1,18 @@
+body
+{
+    font-family: 'segoe ui light';
+}
+.active2
+{
+    color: #09c !important;
+    font-weight: bolder;
+}
+.navbar
+{
+    z-index: 100;
+    top: 0;
+}
+.container
+{
+    margin-top: 80px;
+}
