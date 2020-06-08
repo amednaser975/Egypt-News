@@ -4,7 +4,7 @@ let myData = [],
 window.onload = getData('general');
 function getData(category)
 {
-    myRequest.open('GET', "http://newsapi.org/v2/top-headlines?country=eg&category="+category+"&apiKey=8ff03184db634924951eb1a6c14d9bc1");
+    myRequest.open('GET', "https://newsapi.org/v2/top-headlines?country=eg&category="+category+"&apiKey=8ff03184db634924951eb1a6c14d9bc1");
     myRequest.send(); 
     myRequest.addEventListener('readystatechange',  function ()
     {
